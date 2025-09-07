@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Design & Layout - Ruth Shamini</title>
+  <style>
+    /* GENERAL STYLING */
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #0b3d91; /* deep navy blue */
+      color: #f0f0f0; /* light text */
+    }
+
+    /* HEADER */
+    header {
+      background-color: #1e4f9f; /* lighter blue */
+      padding: 30px 0;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+    }
+
+    header h1 {
+      font-size: 2.5em;
+      margin: 0;
+      color: #ffdd59; /* bright yellow */
+    }
+
+    header nav {
+      margin-top: 15px;
+    }
+
+    header nav a {
+      text-decoration: none;
+      color: #ffdd59;
+      margin: 0 12px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    header nav a:hover {
+      color: #ffa500; /* orange hover */
+      transform: scale(1.1);
+    }
+
+    /* MAIN SECTION */
+    main {
+      padding: 50px 20px;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    main h2 {
+      color: #00ffcc; /* cyan section heading */
+      font-size: 2em;
+      text-align: center;
+      margin-bottom: 25px;
+    }
+
+    main p {
+      font-size: 1.2em;
+      line-height: 1.8em;
+      text-align: justify;
+      color: #f0f0f0;
+      margin-bottom: 20px;
+    }
+
+    /* IMAGES */
+    .layout-images {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      margin-bottom: 30px;
+    }
+
+    .layout-images img {
+      width: 250px;
+      height: 150px;
+      object-fit: cover;
+      border: 3px solid #ffdd59;
+      border-radius: 8px;
+      transition: transform 0.3s;
+    }
+
+    .layout-images img:hover {
+      transform: scale(1.05);
+      border-color: #ffa500;
+    }
+
+    /* BUTTON */
+    .btn {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 12px 25px;
+      background-color: #ffdd59; /* bright yellow */
+      color: #111;
+      font-weight: bold;
+      border-radius: 5px;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background-color: #00ffcc; /* cyan hover */
+      color: #111;
+      transform: scale(1.05);
+    }
+
+    /* FOOTER */
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #1e4f9f;
+      color: #888;
+      position: fixed;
+      width: 100%;
+      bottom: 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Design & Layout</h1>
+    <nav>
+      <a href="tools.html">Previous: Tools & Technologies</a>
+      <a href="features.html">Next: Features & Functionality</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Portfolio Design & Layout</h2>
+    <p>
+      The digital portfolio is designed with *clean, modern, and responsive layouts. Each page contains a consistent header, navigation menu, main content area, and footer. The goal is to make the portfolio **easy to navigate, visually appealing, and professional*.  
+      <br><br>
+      Below are some example layouts to represent how the pages are structured. You can later replace these placeholder images with your own screenshots of the project.
+    </pimage>
+
+    <div class="layout-images">
+      <img src="F:/Portfolio/image1.jpg" text=Home+Page" alt="Home Page Layout" width="400">
+      <img src="F:/Portfolio/image3.jpg" text=Problem+Statement" alt="Problem Statement Layout" width="400">
+      <img src="F:/Portfolio/image2.jpg" text=Project+Overview" alt="Project Overview Layout" width="400">
+      <img src="F:/Portfolio/image4.jpg" text=End+User" alt="End User Layout" width="400">
+    </div>
+
+    <p>
+      Each image shows a section of the portfolio. The color scheme, typography, and button styling are *consistent across all pages* to maintain a professional and cohesive look. Later, you can add images of your actual project screens here to demonstrate the real layout and design.
+    </p>
+
+    <a href="features.html" class="btn">Go to Features & Functionality</a>
+  </main>
+
+  <footer>
+    &copy; 2025 Ruth Shamini | All Rights Reserved
+  </footer>
+
+  <script>
+    window.onload = function() {
+      console.log("Welcome to the Design & Layout page!");
+    };
+  </script>
+</body>
+</html>
